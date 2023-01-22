@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.container{
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1{
+  font-weight: 300;
+  font-size: 44px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.soon{
+  font-weight: 700;
+  color: black;
+}
+
+h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+
+
+.input {
+  font-family: inherit;
+  font-size: 16px;
+  width: 400px;
+  border-radius: 3rem;
+  border: 1px solid hsl(223, 100%, 88%);
+  height: 60px;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+}
+
+.button{
+  margin-left: 15px;
+  border-radius: 100px;
+  padding: 23px 70px;
+  border: none;
+  background:  hsl(223, 87%, 63%);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.img{
+  width: 700px;
+}
+
+.social-links{
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 15px;
+}
+
+ion-icon{
+  color:  hsl(223, 87%, 63%);
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 3rem;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+.error {
+  font-size: 16px;
+  font-style: italic;
+  color: hsl(354, 100%, 66%);
+  align-self: center;
+  text-align: center;
+}
+
+.input::placeholder {
+  color: hsl(223, 100%, 88%);
+}
+
+.input:focus {
+  outline-offset: -1px;
+}
+
+@media (max-width: 750px){
+  .formular{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input {
+    max-width: 400px;
+    width: 90%;
+    height: 60px;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .button{
+    border-radius: 100px;
+    width: 90%;
+    padding: 23px 2.8rem 23px 2.8rem;
+    max-width: 400px;
+    margin: 0px;
+  }
+
+  .img{
+    max-width: 90vh;
+    width: 90%;
+  }
+
+  h1{
+    font-size: 28px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
+
+
+}
+
